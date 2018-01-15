@@ -60,3 +60,18 @@ Para configurar la extensión Web:
 https://api.particle.io/v1/devices/<Device ID>/led
 ```
 
+## Conexión Nube Particle con Firebase
+En el código en [comled.ino](photon-appinventor/comled.ino) cada vez que se actualiza el led, este evento es publicado a la nube de particle:
+```C
+digitalWrite(led, ledStatus);
+Particle.publish("ledstatus",String(ledStatus));
+```
+Es necesario crear un Webhook el cuál actualize Firebase cada vez que se genera este evento:
+
+![Webhook](/imagenes/webhook.png)
+
+Verificar en Firebase que el campo respectivo en la base de datos se actualize cada vez que el led cambia:
+
+![Firebase actualización](/imagenes/firebase_actualizacion.png)
+
+Cuando esto este funcionando, se puede usar la extensión de Firebase en AppInventor para capturar eventos de cambios remotos en Firebase.
