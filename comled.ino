@@ -1,7 +1,7 @@
 /* El led azul en el Photon esta asociado al PIN D7
  * El botón esta conectado al PIN D0 */
 int led = D7;
-int button = D0;
+int button = D1;
 
 int ledStatus; //0 - LOW, 1 - HIGH
 int button_v;
