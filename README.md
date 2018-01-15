@@ -17,13 +17,13 @@ La intergración entre ambas plataformas se puede efectuar a través de la base 
 
 ## Configuración Photon
 * Conectar el Photon al internet [usando la aplicación de Particle](https://docs.particle.io/guide/getting-started/start/photon/#step-2b-connect-your-photon-to-the-internet-using-your-smartphone)
-* Verificar que el photon puede ser controlado usando el App de Particle (encender y apagar el LED azul en D7)
+* Verificar que el photon pueda ser controlado usando el App de Particle (encender y apagar el LED azul en D7)
 * Crear una nueva aplicación en el [Web IDE de Particle](https://build.particle.io/build/new) y copiar el código en [comled.ino](/comled.ino)
 * Cargar o hacer Flash a la aplicación comled hacia el Photon
 
 ![Flash](/imagenes/flash.png)
 
-* Una vez termina el flashing, probar el botón físico en el Phton, debe de encender y apagar el LED azul en D7
+* Una vez termina el flashing, probar el botón físico en el Photon, debe de encender y apagar el LED azul en D7
 
 ## Configuración Firebase
 * Ir a https://console.firebase.google.com/ e ingresar con una cuenta personal de Google.
@@ -46,11 +46,11 @@ Particle.publish("ledstatus",String(ledStatus));
 ```
 Es necesario crear un Webhook el cuál actualize Firebase cada vez que se genera este evento:
 
-Ir a consola | Crear Webhool
+Ir a consola | Crear Webhook
 --- | ---
 ![Ir a consola](/imagenes/consola.png) | ![Después](/imagenes/crear_webhook.png)
 
-Y finalmente editar el webhook de la siguiente forma:
+Y finalmente editar el Webhook de la siguiente forma:
 
 ![Webhook](/imagenes/webhook.png)
 
@@ -62,7 +62,7 @@ Cuando esto este funcionando, se puede usar la extensión de Firebase en AppInve
 
 
 ## Configuración MIT AppInventor con Firebase
-Conectar la aplicación de MIT AppInventor usando la extensión FirebaseDB:
+Conectar la aplicación de MIT AppInventor a Firebase usando la extensión FirebaseDB:
 
 ![Firbase extensión](/imagenes/appinventor_firebase.png)
 
@@ -80,13 +80,17 @@ es registrada en la nube de Particle y por lo tanto se la pueda ejecutar remotam
 
 ![Ejemplo bloques](/imagenes/ejemploBloquesBoton.PNG)
 
-Para esto, es necesario usar la extensión Web en AppInventor:
+El campo <Access Token> debe de ser reemplazada por el Access Token de su aplicación:
+  
+![Access Token](/imagenes/access_token.png)
+
+Para que esto funcione, es necesario primero seleccionar la extensión Web en AppInventor:
 
 ![Extensión Web](/imagenes/extensiones_appinventor.png)
 
 Para configurar la extensión Web:
 * Buscar el número del Device ID de su Photon en la consola de Particle https://console.particle.io
-* En AppInventor, en la configuración de la extensión Web, en el campo URL de lusar:
+* En AppInventor, en la configuración de la extensión Web, en el campo URL usar:
 ```
 https://api.particle.io/v1/devices/<Device ID>/led
 ```
