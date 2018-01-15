@@ -61,7 +61,7 @@ https://api.particle.io/v1/devices/<Device ID>/led
 ```
 
 ## Conexión Nube Particle con Firebase
-En el código en [comled.ino](photon-appinventor/comled.ino) cada vez que se actualiza el led, este evento es publicado a la nube de particle:
+En el código en [comled.ino](comled.ino) cada vez que se actualiza el led, este evento es publicado a la nube de particle:
 ```C
 digitalWrite(led, ledStatus);
 Particle.publish("ledstatus",String(ledStatus));
