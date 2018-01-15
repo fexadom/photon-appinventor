@@ -28,7 +28,11 @@ La intergración entre ambas plataformas se puede efectuar a través de la base 
 * Ir a la sección de la base de datos y copiar el enlace.
 ![Nuevo proyecto Firebase](/imagenes/firebase_url.png)
 * Ir a la sección de reglas (Rules) y abrir la base de datos para uso sin autenticación. Aquí el antes y después:
-![Antes](/imagenes/firebase_rules_1.png) ![Después](/imagenes/firebase_rules_2.png)
+
+Antes | Después
+--- | ---
+![Antes](/imagenes/firebase_rules_1.png) | ![Después](/imagenes/firebase_rules_2.png)
+
 
 ## Conexión Nube Particle con Firebase
 En el código en [comled.ino](/comled.ino) cada vez que se actualiza el led, este evento es publicado a la nube de particle:
