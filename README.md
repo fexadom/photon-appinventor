@@ -21,6 +21,10 @@ La intergración entre ambas plataformas se puede efectuar a través de la base 
 * Crear una nueva aplicación en el [Web IDE de Particle](https://build.particle.io/build/new) y copiar el código en [comled.ino](/comled.ino)
 * Cargar o hacer Flash a la aplicación comled hacia el Photon
 
+![Flash](/imagenes/flash.png)
+
+* Una vez termina el flashing, probar el botón físico en el Phton, debe de encender y apagar el LED azul en D7
+
 ## Configuración Firebase
 * Ir a https://console.firebase.google.com/ e ingresar con una cuenta personal de Google.
 * Crear un proyecto nuevo. Usar el plan gratuito Spark, seleccionar Ecuador como la región y nombrar el proyecto.
@@ -41,6 +45,12 @@ digitalWrite(led, ledStatus);
 Particle.publish("ledstatus",String(ledStatus));
 ```
 Es necesario crear un Webhook el cuál actualize Firebase cada vez que se genera este evento:
+
+Ir a consola | Crear Webhool
+--- | ---
+![Ir a consola](/imagenes/consola.png) | ![Después](/imagenes/crear_webhook.png)
+
+Y finalmente editar el webhook de la siguiente forma:
 
 ![Webhook](/imagenes/webhook.png)
 
