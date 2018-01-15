@@ -18,7 +18,7 @@ La intergración entre ambas plataformas se puede efectuar a través de la base 
 ## Configuración Photon
 * Conectar el Photon al internet [usando la aplicación de Particle](https://docs.particle.io/guide/getting-started/start/photon/#step-2b-connect-your-photon-to-the-internet-using-your-smartphone)
 * Verificar que el photon puede ser controlado usando el App de Particle (encender y apagar el LED azul en D7)
-* Crear una nueva aplicación en el [Web IDE de Particle](https://build.particle.io/build/new) y copiar el código en [comled.ino](photon-appinventor/comled.ino)
+* Crear una nueva aplicación en el [Web IDE de Particle](https://build.particle.io/build/new) y copiar el código en [comled.ino](/comled.ino)
 * Cargar o hacer Flash a la aplicación comled hacia el Photon
 
 ## Configuración Firebase
