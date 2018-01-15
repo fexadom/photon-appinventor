@@ -21,7 +21,7 @@ La intergración entre ambas plataformas se puede efectuar a través de la base 
 * Crear una nueva aplicación en el [Web IDE de Particle](https://build.particle.io/build/new) y copiar el código en [comled.ino](photon-appinventor/comled.ino)
 * Cargar o hacer Flash a la aplicación comled hacia el Photon
 
-# Configuración Firebase
+## Configuración Firebase
 * Ir a https://console.firebase.google.com/ e ingresar con una cuenta personal de Google.
 * Crear un proyecto nuevo. Usar el plan gratuito Spark, seleccionar Ecuador como la región y nombrar el proyecto.
 ![Nuevo proyecto Firebase](/imagenes/firebase_new.png)
@@ -30,5 +30,33 @@ La intergración entre ambas plataformas se puede efectuar a través de la base 
 * Ir a la sección de reglas (Rules) y abrir la base de datos para uso sin autenticación. Aquí el antes y después:
 ![Antes](/imagenes/firebase_rules_1.png) ![Después](/imagenes/firebase_rules_2.png)
 
-# Configuración MIT AppInventor
+## Configuración MIT AppInventor con Firebase
+Conectar la aplicación de MIT AppInventor usando la extensión FirebaseDB:
+
+![Firbase extensión](/imagenes/appinventor_firebase.png)
+
+En la configuración de la extensión de Firebase:
+* Remover el visto en *Use Default*
+* Configurar de la siguiente forma:
+![Firbase configuración](/imagenes/firebase.png)
+
+## Conexión MIT AppInventor con Particle
+En el código en [comled.ino](photon-appinventor/comled.ino) la función "led":
+```C
+Particle.function("led",ledCommand);
+```
+es registrada en la nube de Particle y por lo tanto se la pueda ejecutar remotamente usando un API request. Este es un ejemplo de un botón en AppIventor que al ser presionado, llama a esta función remotamente:
+
+![Ejemplo bloques](/imagenes/ejemploBloquesBoton.PNG)
+
+Para esto, es necesario usar la extensión Web en AppInventor:
+
+![Extensión Web](/imagenes/extensiones_appinventor.png)
+
+Para configurar la extensión Web:
+* Buscar el número del Device ID de su Photon en la consola de Particle https://console.particle.io
+* En AppInventor, en la configuración de la extensión Web, en el campo URL de lusar:
+```
+https://api.particle.io/v1/devices/<Device ID>/led
+```
 
