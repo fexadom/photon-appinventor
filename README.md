@@ -78,15 +78,17 @@ Particle.function("led",ledCommand);
 ```
 es registrada en la nube de Particle y por lo tanto se la pueda ejecutar remotamente usando un API request. Este es un ejemplo de un botón en AppIventor que al ser presionado, llama a esta función remotamente:
 
-Ejemplo1
+Ejemplo Método 1
+
 ![Ejemplo bloques](/imagenes/ejemploBloquesBoton.PNG)
 
-Ejemplo2
+Ejemplo Método 2
+
 ![Ejemplo bloques2](/imagenes/ejemploBloquesBoton2.png)
+
 
 El campo <Access Token> debe de ser reemplazada por el Access Token de su aplicación:
   
-![Device ID](/imagenes/deviceID.png)
 ![Access Token](/imagenes/access_token.png)
 
 Para que esto funcione, es necesario primero seleccionar la extensión Web en AppInventor:
@@ -94,8 +96,9 @@ Para que esto funcione, es necesario primero seleccionar la extensión Web en Ap
 ![Extensión Web](/imagenes/extensiones_appinventor.png)
 
 Para configurar la extensión Web:
-* Buscar el número del Device ID de su Photon en la consola de Particle https://console.particle.io
 * En AppInventor, en la configuración de la extensión Web, en el campo URL usar:
 ```
 https://api.particle.io/v1/devices/<Device ID>/led
 ```
+* Buscar el número del Device ID de su Photon en la consola de Particle https://console.particle.io
+![Device ID](/imagenes/deviceID.png)
