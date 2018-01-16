@@ -78,7 +78,11 @@ Particle.function("led",ledCommand);
 ```
 es registrada en la nube de Particle y por lo tanto se la pueda ejecutar remotamente usando un API request. Este es un ejemplo de un botón en AppIventor que al ser presionado, llama a esta función remotamente:
 
+Ejemplo1
 ![Ejemplo bloques](/imagenes/ejemploBloquesBoton.PNG)
+
+Ejemplo2
+![Ejemplo bloques2](/imagenes/ejemploBloquesBoton2.PNG)
 
 El campo <Access Token> debe de ser reemplazada por el Access Token de su aplicación:
   
