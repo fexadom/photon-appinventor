@@ -82,7 +82,7 @@ Ejemplo1
 ![Ejemplo bloques](/imagenes/ejemploBloquesBoton.PNG)
 
 Ejemplo2
-![Ejemplo bloques2](/imagenes/ejemploBloquesBoton2.PNG)
+![Ejemplo bloques2](/imagenes/ejemploBloquesBoton2.png)
 
 El campo <Access Token> debe de ser reemplazada por el Access Token de su aplicación:
   
