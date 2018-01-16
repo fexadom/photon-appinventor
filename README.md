@@ -86,6 +86,7 @@ Ejemplo2
 
 El campo <Access Token> debe de ser reemplazada por el Access Token de su aplicación:
   
+![Device ID](/imagenes/deviceID.png)
 ![Access Token](/imagenes/access_token.png)
 
 Para que esto funcione, es necesario primero seleccionar la extensión Web en AppInventor:
