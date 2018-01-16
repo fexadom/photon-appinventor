@@ -72,7 +72,7 @@ En la configuración de la extensión de Firebase:
 ![Firbase configuración](/imagenes/firebase.png)
 
 ## Conexión MIT AppInventor con Particle
-En el código en [comled.ino](photon-appinventor/comled.ino) la función "led":
+En el código en [comled.ino](/comled.ino) la función "led":
 ```C
 Particle.function("led",ledCommand);
 ```
