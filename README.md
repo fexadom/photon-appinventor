@@ -44,7 +44,7 @@ En el código en [comled.ino](/comled.ino) cada vez que se actualiza el led, est
 digitalWrite(led, ledStatus);
 Particle.publish("ledstatus",String(ledStatus));
 ```
-Es necesario crear un Webhook el cuál actualize Firebase cada vez que se genera este evento:
+Es necesario crear un Webhook el cuál actualice Firebase cada vez que se genera este evento:
 
 Ir a consola | Crear Webhook
 --- | ---
