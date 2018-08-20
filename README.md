@@ -6,12 +6,20 @@ La intergración entre ambas plataformas se puede efectuar a través de la base 
 
 ![arquitectura](/imagenes/photon-appinventor.png)
 
+## Requisitos
+* 1 Partical Photon
+* 1 Protoboard
+* 1 PushButton
+* 2 cables conectores
+* (opcional) 1 led, una resistencia de 200Ohm y 2 cables adicionales
+
 ## Requerimientos
 * Android smartphone con App [Particle](https://play.google.com/store/apps/details?id=io.particle.android.app&hl=es) y opcional [MIT AI2 Companion](https://play.google.com/store/apps/details?id=edu.mit.appinventor.aicompanion3&hl=es)
 * Cuenta en [Particle](https://www.particle.io/)
 * Cuenta en [Firebase](https://firebase.google.com/)
 * Cuenta en [MIT AppInventor](http://ai2.appinventor.mit.edu)
-* Particle Photon conectado así:
+
+Particle Photon conectado así:
 ![Photon esquematico](/imagenes/photon_bb.png)
 ![Photon foto](/imagenes/photon.PNG)
 
