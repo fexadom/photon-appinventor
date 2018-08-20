@@ -27,7 +27,7 @@ Particle Photon conectado así:
 * [Resetear](https://community.particle.io/t/how-to-do-a-factory-reset/2579) el Photon de fábrica para configurar desde cero.
 * Conectar el Photon al internet [usando la aplicación de Particle](https://docs.particle.io/guide/getting-started/start/photon/#step-2b-connect-your-photon-to-the-internet-using-your-smartphone)
 * Verificar que el photon pueda ser controlado usando el App de Particle (encender y apagar el LED azul en D7)
-* Crear una nueva aplicación en el [Web IDE de Particle](https://build.particle.io/build/new) y copiar el código en [comled.ino](/comled.ino)
+* Crear una nueva aplicación en el [Web IDE de Particle](https://build.particle.io/build/new) y copiar el código de [comled.ino](/comled.ino)
 * Cargar o hacer Flash a la aplicación comled hacia el Photon
 
 ![Flash](/imagenes/flash.png)
