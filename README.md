@@ -38,7 +38,7 @@ Particle Photon conectado así:
 ## Configuración Firebase
 * Ir a https://console.firebase.google.com/ e ingresar con una cuenta personal de Google.
 * Cambiar Database por 'Realtime Database'
-![Nuevo proyecto Firebase](/imagenes/firebase_database.png)
+![Nuevo proyecto Firebase](/imagenes/firebase_database.jpg)
 * Ir a la sección de la base de datos y copiar el enlace.
 ![Nuevo proyecto Firebase](/imagenes/firebase_url.png)
 * Ir a la sección de reglas (Rules) y abrir la base de datos para uso sin autenticación. Aquí el antes y después:
