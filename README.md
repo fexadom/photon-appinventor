@@ -26,6 +26,7 @@ Particle Photon conectado así:
 ## Configuración Photon
 * [Resetear](https://docs.particle.io/tutorials/device-os/led/photon/#wi-fi-network-reset) el Wifi del Photon de fábrica para poder reconfigurar.
 * Conectar el Photon al internet [usando la aplicación de Particle](https://docs.particle.io/guide/getting-started/start/photon/#step-2b-connect-your-photon-to-the-internet-using-your-smartphone)
+
 ![Photon foto](/imagenes/photon_wifi_id.PNG)
 * Verificar que el photon pueda ser controlado mediante el App de Particle (encender y apagar el LED azul en D7), para esto debe crear una nueva aplicación en el [Web IDE de Particle](https://build.particle.io/build/new) y copiar el código de [comled.ino](/comled.ino)
 * Cargar o hacer Flash a la aplicación comled hacia el Photon
