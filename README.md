@@ -101,7 +101,7 @@ El campo <Access Token> debe de ser reemplazada por el Access Token de su aplica
   
 ![Access Token](/imagenes/access_token.png)
 
-Para que esto funcione, es necesario primero seleccionar la extensión Web en AppInventor:
+Para que esto funcione, es necesario primero seleccionar el componente Web (agregarlo desde la sección Connectivity) en AppInventor:
 
 ![Extensión Web](/imagenes/extensiones_appinventor.png)
 
