@@ -27,7 +27,7 @@ Particle Photon conectado así:
 * [Resetear](https://docs.particle.io/tutorials/device-os/led/photon/#wi-fi-network-reset) el Wifi del Photon de fábrica para poder reconfigurar mediante el botón que dice RESET.
 * Verificar que el led este parpadeando en azul, en caso de no parpadear en azul, tener presionado por 3 o 4 segundos el boton de SETUP. (Led parpadeo azul significa que esta activado el módulo wifi)
 * Descargar el archivo html y abrirlo
-![html foto](/imagenes/Wifi_photon_archivohtml.PNG)
+![html foto](/imagenes/Wifi_photon_archivohtml.png)
 * Conectar el Photon al internet [usando la aplicación de Particle](https://docs.particle.io/guide/getting-started/start/photon/#step-2b-connect-your-photon-to-the-internet-using-your-smartphone)
 
 
