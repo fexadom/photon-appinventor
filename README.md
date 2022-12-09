@@ -31,6 +31,7 @@ Particle Photon conectado así:
 * Descargar el archivo html y abrirlo
 ![html foto](/imagenes/Wifi_photon_archivohtml.png)
 * Conectar el wifi de la pc al wifi del proton llamado "Proton…".
+
 ![Wifi nombre Proton](/imagenes/Wifi_photon_nombre.png)
 
 * El archivo html automaticamente se actualizará para conecta nuestro PHOTON a un wifi cercano.
