@@ -24,15 +24,27 @@ Particle Photon conectado así:
 ![Photon foto](/imagenes/photon.PNG)
 
 ## Configuración Photon
+![Photon foto](/imagenes/photon_wifi_id.PNG)
 * [Resetear](https://docs.particle.io/tutorials/device-os/led/photon/#wi-fi-network-reset) el Wifi del Photon de fábrica para poder reconfigurar mediante el botón que dice RESET.
 * Verificar que el led este parpadeando en azul, en caso de no parpadear en azul, tener presionado por 3 o 4 segundos el boton de SETUP. (Led parpadeo azul significa que esta activado el módulo wifi)
+* Conectar el Photon al internet [usando la aplicación de Particle](https://docs.particle.io/guide/getting-started/start/photon/#step-2b-connect-your-photon-to-the-internet-using-your-smartphone)
 * Descargar el archivo html y abrirlo
 ![html foto](/imagenes/Wifi_photon_archivohtml.png)
-* Conectar el Photon al internet [usando la aplicación de Particle](https://docs.particle.io/guide/getting-started/start/photon/#step-2b-connect-your-photon-to-the-internet-using-your-smartphone)
+* Conectar el wifi de la pc al wifi del proton llamado "Proton…"
+![Wifi nombre Proton] (/imagenes/Wifi_photon_nombre.png)
 
+* El archivo html automaticamente se actualizará para conecta nuestro PHOTON a un wifi cercano.
+![html foto2](/imagenes/Wifi_photon_archivohtml2.png)
 
-![Photon foto](/imagenes/photon_wifi_id.PNG)
+* Si nuestro led enciende con el color cyan, la conexión fue exitosa, en caso de que solo sea azul o verde, por favor repetir los pasos desde reabrir el archivo html y resetear el PHOTON.
+![html foto3](/imagenes/Wifi_photon_archivohtml3.png)
+
+* El nombre del dispositivo lo pueden elegir
+* Listo, nuestro PHOTON esta conectado a una red
+![photon_wifi_aprovado](/imagenes/Wifi_photon_archivohtml4.png)
 * Verificar que el photon pueda ser controlado mediante el App de Particle (encender y apagar el LED azul en D7), para esto debe crear una nueva aplicación en el [Web IDE de Particle](https://build.particle.io/build/new) y copiar el código de [comled.ino](/comled.ino)
+![Photon_device](/imagenes/photon_particle_device)
+
 * Cargar o hacer Flash a la aplicación comled hacia el Photon
 
 ![Flash](/imagenes/flash.png)
