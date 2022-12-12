@@ -72,7 +72,7 @@ Inicio | Creado
 ![Nuevo proyecto FireBase](/imagenes/Base_datos_Firebase6.png)
 
 * Ir a la sección de la base de datos y copiar el enlace.
-![Nuevo proyecto Firebase](/imagenes/Conexión_Particle_Firebase5.png)
+![Nuevo proyecto Firebase](/imagenes/Conexión_Particle_Firebase4.png)
 * Ir a la sección de reglas (Rules) y abrir la base de datos para uso sin autenticación. Aquí el antes y después:
 
 Antes | Después
