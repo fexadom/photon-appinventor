@@ -57,19 +57,17 @@ Particle Photon conectado así:
 * Ir a https://console.firebase.google.com/ e ingresar con una cuenta personal de Google.
 * Iniciamos sesión y creamos un proyecto nuevo
 ![Nuevo proyecto Firebase](/imagenes/Creacion_Firebase_1.png)
-* Le colocamos el nombre de Photon y le dammos a todo continuar por defecto.
 
-Inicio | Creado
+Nombre: Photon | Le damos continuar hasta que nos avise que esta creado
 --- | ---
 ![Inicio](/imagenes/Creacion_Firebase_2.png) | ![Final](/imagenes/Creacion_Firebase_5.png)
 
 * Vamos a crear nuestra base de datos en tiempo real para eso seguimos las intrucciones
 ![Nuevo proyecto FireBase](/imagenes/Base_datos_Firebase.png)
-![Nuevo proyecto FireBase](/imagenes/Base_datos_Firebase2.png)
-![Nuevo proyecto FireBase](/imagenes/Base_datos_Firebase3.png)
-
-![Le damos a siguiente](/imagenes/Base_datos_Firebase4.png) | ![Nuevo proyecto FireBase](/imagenes/Base_datos_Firebase5.png)
+![Nuevo proyecto FireBase](/imagenes/Base_datos_Firebase2.png) | ![Nuevo proyecto FireBase](/imagenes/Base_datos_Firebase3.png)
 --- | ---
+![Le damos a siguiente](/imagenes/Base_datos_Firebase4.png) | ![Nuevo proyecto FireBase](/imagenes/Base_datos_Firebase5.png)
+
 
 ![Nuevo proyecto FireBase](/imagenes/Base_datos_Firebase6.png)
 
