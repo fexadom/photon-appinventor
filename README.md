@@ -67,8 +67,10 @@ Inicio | Creado
 ![Nuevo proyecto FireBase](/imagenes/Base_datos_Firebase.png)
 ![Nuevo proyecto FireBase](/imagenes/Base_datos_Firebase2.png)
 ![Nuevo proyecto FireBase](/imagenes/Base_datos_Firebase3.png)
-![Nuevo proyecto FireBase](/imagenes/Base_datos_Firebase4.png)
-![Nuevo proyecto FireBase](/imagenes/Base_datos_Firebase5.png)
+
+Seguimos por defecto | Creado
+--- | ---
+![Le damos a siguiente](/imagenes/Base_datos_Firebase4.png) | ![Nuevo proyecto FireBase](/imagenes/Base_datos_Firebase5.png)
 ![Nuevo proyecto FireBase](/imagenes/Base_datos_Firebase6.png)
 
 * Ir a la sección de la base de datos y copiar el enlace.
