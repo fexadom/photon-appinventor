@@ -72,7 +72,7 @@ Inicio | Creado
 ![Nuevo proyecto FireBase](/imagenes/Base_datos_Firebase6.png)
 
 * Ir a la sección de la base de datos y copiar el enlace.
-![Nuevo proyecto Firebase](/imagenes/firebase_url.png)
+![Nuevo proyecto Firebase](/imagenes/Conexión_Particle_Firebase5.png)
 * Ir a la sección de reglas (Rules) y abrir la base de datos para uso sin autenticación. Aquí el antes y después:
 
 Antes | Después
@@ -90,11 +90,13 @@ Es necesario crear un Webhook el cuál actualice Firebase cada vez que se genera
 
 Ir a consola | Crear Webhook
 --- | ---
-![Ir a consola](/imagenes/consola.png) | ![Después](/imagenes/crear_webhook.png)
+![Ir a consola](/imagenes/consola.png) | ![Después](/imagenes/Conexión_Particle_Firebase1.png)
+
+![Webhook](/imagenes/Conexión_Particle_Firebase2.png)
 
 Y finalmente editar el Webhook de la siguiente forma:
 
-![Webhook](/imagenes/webhook.png)
+![Webhook](/imagenes/Conexión_Particle_Firebase5.png)
 
 Verificar en Firebase que el campo respectivo en la base de datos se actualize cada vez que el led cambia:
 
