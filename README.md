@@ -64,6 +64,7 @@ Nombre: Photon | Le damos continuar hasta que nos avise que esta creado
 
 * Vamos a crear nuestra base de datos en tiempo real para eso seguimos las intrucciones
 ![Nuevo proyecto FireBase](/imagenes/Base_datos_Firebase.png)
+
 ![Nuevo proyecto FireBase](/imagenes/Base_datos_Firebase2.png) | ![Nuevo proyecto FireBase](/imagenes/Base_datos_Firebase3.png)
 --- | ---
 ![Le damos a siguiente](/imagenes/Base_datos_Firebase4.png) | ![Nuevo proyecto FireBase](/imagenes/Base_datos_Firebase5.png)
