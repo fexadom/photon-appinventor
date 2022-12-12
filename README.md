@@ -59,7 +59,8 @@ Particle Photon conectado así:
 ![Nuevo proyecto Firebase](/imagenes/Creacion_Firebase_1.png)
 * Le colocamos el nombre de Photon y le dammos a todo continuar por defecto.
 
-Inicio | Final
+Inicio | Creado
+--- | ---
 ![Inicio](/imagenes/Creacion_Firebase_2.png) | ![Final](/imagenes/Creacion_Firebase_5.png)
 
 * Vamos a crear nuestra base de datos en tiempo real para eso seguimos las intrucciones
