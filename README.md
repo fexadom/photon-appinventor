@@ -106,14 +106,24 @@ Cuando esto este funcionando, se puede usar la extensión de Firebase en AppInve
 
 
 ## Configuración MIT AppInventor con Firebase
+Iniciamos sesión en MIT AppInventor y creamos un nuevo proyecto.
+![MitAppProyecto](/imagenes/MIT_App_Proyecto.png)
+![MitAppProyecto](/imagenes/MIT_App_Proyecto2.png)
+
 Conectar la aplicación de MIT AppInventor a Firebase usando la extensión FirebaseDB:
 
-![Firbase extensión](/imagenes/appinventor_firebase.png)
+![Firbase extensión](/imagenes/MIT_App_Proyecto3.png)
 
 En la configuración de la extensión de Firebase:
 * Remover el visto en *Use Default*
 * Configurar de la siguiente forma:
 ![Firbase configuración](/imagenes/firebase.png)
+
+Para sacar la url y el token, nos vamos a configuración de nuestro proyecto en Firebase.
+![Firebase_token](/imagenes/Firebase_Token_1.png)
+![Firebase_token](/imagenes/Firebase_Token_2.png)
+
+
 
 ## Conexión MIT AppInventor con Particle
 En el código en [comled.ino](/comled.ino) la función "led":
